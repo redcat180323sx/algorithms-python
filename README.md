@@ -1,39 +1,38 @@
 # algorithms-python
 
-A personal collection of classic algorithms and data structures implemented in clean, readable Python.
+My personal collection of algorithms and data structures implemented in Python.
 
 ## Features
 
-- Sorting and searching algorithms
-- Graph traversal and shortest-path algorithms
-- Common data structures
-- Dynamic programming examples
-- Type hints and concise documentation
-- Tests for correctness and edge cases
+- Clear, readable Python implementations
+- Common searching and sorting algorithms
+- Fundamental data structures
+- Practice problems and solutions
+- Examples for learning and reference
 
 ## Install
 
+Clone the repository and enter the project directory:
+
 ```bash
-git clone https://github.com/your-username/algorithms-python.git
+git clone https://github.com/<username>/algorithms-python.git
 cd algorithms-python
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
 ```
+
+No package installation is required; use a recent Python 3 release.
 
 ## Usage
 
-Import an implementation directly:
-
-```python
-from algorithms.sorting import quicksort
-
-numbers = [8, 3, 1, 7, 4]
-print(quicksort(numbers))
-```
-
-Run the test suite:
+Browse the repository and run an algorithm directly:
 
 ```bash
-python -m pytest
+python3 path/to/algorithm.py
+```
+
+You can also import implementations into your own Python code:
+
+```python
+from path.to.algorithm import function_name
+
+result = function_name()
 ```
