@@ -1,38 +1,23 @@
 # algorithms-python
 
-My personal collection of algorithms and data structures implemented in Python.
+A small collection of Python utilities for everyday development tasks.
 
 ## Features
 
-- Clear, readable Python implementations
-- Common searching and sorting algorithms
-- Fundamental data structures
-- Practice problems and solutions
-- Examples for learning and reference
+- Clean, dependency-free helpers
+- Type hints and docstrings
+- Simple command line entry points
+- Works on Python 3.9+
 
 ## Install
 
-Clone the repository and enter the project directory:
-
-```bash
-git clone https://github.com/<username>/algorithms-python.git
-cd algorithms-python
-```
-
-No package installation is required; use a recent Python 3 release.
+    pip install -r requirements.txt
 
 ## Usage
 
-Browse the repository and run an algorithm directly:
+    from utils import slugify, chunk
+    print(slugify('Hello World'))
 
-```bash
-python3 path/to/algorithm.py
-```
+## License
 
-You can also import implementations into your own Python code:
-
-```python
-from path.to.algorithm import function_name
-
-result = function_name()
-```
+MIT
